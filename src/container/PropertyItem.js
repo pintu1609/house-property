@@ -10,7 +10,7 @@ const PropertyItem = (props) => {
                 <button type="button" className="btn btn-light rounded-pill mx-4"style={{ color: '#3739e3', fontSize:15, padding:2}}>For {props.type} </button>
                 <i className="fa-regular fa-heart fa-sm rounded-circle mx-4 " style={{background:'#f2f5fc', padding:'10px 5px'}} ></i>
             </div>
-            <div style={{display:'flex', justifyContent:'flex-start', position:'absolute',background: '#3739e3', zIndex:2, bottom:130, left:-5}}>
+            <div style={{display:'flex', justifyContent:'flex-start', position:'absolute',background: '#3739e3', zIndex:2, bottom:125, left:-5}}>
             <span className="badge rounded-pill " >
                  {props.category}
                 
