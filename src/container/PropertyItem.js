@@ -51,7 +51,9 @@ const PropertyItem = (props) => {
            
             <div className="card-body d-flex justify-content-between mx-2 my-1" style={{padding:0}}>
                 <h5 className="Price" style={{padding:2, fontSize:15}}>$ {props.price}/month</h5>
-                <button type="button" className="btn btn-light rounded-pill "style={{ color: '#3739e3', fontSize:12}}>Read More </button>
+                <button type="button" className="btn btn-light rounded-pill "style={{ color: '#3739e3', fontSize:12}}     onClick={() => {
+      window.open(props.linkToMoreInfo, '_blank');
+    }}>Read More </button>
 
             </div>
         </div>
